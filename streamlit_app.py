@@ -1,5 +1,6 @@
 import streamlit as st
 import os, sys
+import subprocess
 
 @st.experimental_singleton
 def install_chrome():
@@ -7,6 +8,7 @@ def install_chrome():
 #   os.system('ln -s /home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver /home/appuser/venv/bin/chromedriver')
 
 _ = install_chrome()
+subprocess.run(["which", "chromium"])
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 opts = Options()
