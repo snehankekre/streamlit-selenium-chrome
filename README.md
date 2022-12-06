@@ -1,4 +1,4 @@
-# Web scraping on Streamlit Cloud with Selenium and Chrome
+# Web scraping on Streamlit Cloud with Selenium+Chrome
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://selenium.streamlit.app/)
 
