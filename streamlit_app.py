@@ -10,7 +10,8 @@ _ = install_chrome()
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 opts = Options()
-opts.headless = True
+opts.add_argument('--disable-gpu')
+opts.add_argument('--headless')
 browser = webdriver.Chrome(options=opts, executable_path="/home/appuser/venv/lib/python3.9/site-packages/seleniumbase/drivers/chromedriver")
 
 browser.get('http://example.com')
