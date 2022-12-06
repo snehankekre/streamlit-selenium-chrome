@@ -20,4 +20,4 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 driver.get('http://example.com')
-st.write(browser.page_source)
+st.write(driver.page_source)
