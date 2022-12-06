@@ -14,6 +14,13 @@ options.add_argument('--disable-gpu')
 options.add_argument('--headless')
 
 driver = get_driver()
-driver.get('http://example.com')
+
+website = st.text_input(
+    "Enter the URL to scrape", 
+    value="http://example.com",
+    placeholder="http://..."
+)
+
+driver.get(website)
 
 st.code(driver.page_source)
