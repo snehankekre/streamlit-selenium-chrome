@@ -7,7 +7,7 @@ import streamlit as st
 
 This is a minimal, reproducible example of how to scrape the web with Selenium and Chrome on Streamlit's Community Cloud.
 
-Fork this repo, and edit streamlit_app.py to customize this app to your heart's desire. ❤️
+Fork this repo, and edit `/streamlit_app.py` to customize this app to your heart's desire. :heart:
 """
 
 with st.echo():
